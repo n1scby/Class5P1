@@ -3,5 +3,9 @@ var numOfGreetings = 10;
 
 for (var i=0; i<numOfGreetings; i++)
 {
-console.log(i + " Hello, " + greeting);
+
+if (i%2 != 0)
+{
+    console.log(i + " Hello, " + greeting);
+}
 }
